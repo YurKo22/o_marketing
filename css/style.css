@@ -217,6 +217,27 @@ body {
 .expertise__item {
   width: 370px;
   padding-left: 85px;
+  position: relative;
+}
+.expertise__item:not(:last-child){
+   margin-right: 27px;
+}
+.expertise__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+.expertise__item--design::before {
+  background-image: url("../images/design-icon.svg");
+}
+.expertise__item--web::before {
+  background-image: url("../images/web-icon.svg");
+}
+.expertise__item--marketing::before {
+  background-image: url("../images/marketing-logo.svg");
 }
 .expertise__item-title {
   font-family: "Raleway", sans-serif;
@@ -230,5 +251,5 @@ body {
   text-transform: uppercase;
 }
 .expertise__item-text {
-   color: #777777;
+  color: #777777;
 }
