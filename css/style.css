@@ -253,3 +253,23 @@ body {
 .expertise__item-text {
   color: #777777;
 }
+/* ------------ Section Magic----------------- */
+.magic {
+   background-color: #f6f8fa;
+   background-image: url('../images/magic-img.jpg');
+   background-repeat: no-repeat;
+   background-size: 50%;
+   background-position: left 82%;
+ }
+.magic__inner {
+   max-width: 470px;
+   margin-left: auto;
+   padding: 100px 0 190px;
+}
+.magic__title {
+   font-size: 60px;
+   margin-bottom: 67px;
+ }
+.magic__text p{
+   margin-bottom: 25px;
+}
