@@ -280,7 +280,7 @@ body {
 .portfolio__top {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   margin-bottom: 100px;
 }
 .title__portfolio {
@@ -300,6 +300,10 @@ body {
    letter-spacing: 2px;
    text-transform: uppercase;
    margin-right: 25px;
+   outline-color:#fcbb08;
+}
+.mixitup-control-active{
+   border-bottom: 1px solid #fcbb08;
 }
 .portfolio__content {
   column-count: 4;
